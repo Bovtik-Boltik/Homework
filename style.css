@@ -1,6 +1,6 @@
 body {
     background: skyblue;
-    font-color: white;
+    font: 14px solid white;
 }
 
 .block {
@@ -15,14 +15,12 @@ body {
     padding: 5px;
 }
 
-
 .block:hover {
     outline: 10px double yellow;
     background: rgb(114, 88, 209);
     transition: 2s;
     z-index: 1;
 }
-
 
 img {
     background-size: cover;
